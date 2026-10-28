@@ -26,6 +26,11 @@ coming soon (hopefully)
 
 ## References
 
+## Background
+Papers that inspired this project and add additional information:
+
+- Kasianchuk N, Rzymski P, Kaczmarek Ł. The biomedical potential of tardigrade proteins: A review. *Biomed Pharmacother*. 2023 Feb;158:114063. doi: [10.1016/j.biopha.2022.114063](https://doi.org/10.1016/j.biopha.2022.114063). PMID: [36495665](https://pubmed.ncbi.nlm.nih.gov/36495665/).
+
 ## About
 I am a Bachelor's student in Integrated Life Sciences (Biology, Biophysics and Biomathematics) at FAU Erlangen-Nürnberg with an interest in bioinformatics/computational biology. This project is part of my self-directde learning in this area. 
 
