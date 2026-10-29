@@ -12,7 +12,7 @@ Tardigrades are micro-animals with the ability to survive extreme conditions suc
 | 1 | Which regions of Dsup are strongly positively charged and intrinsically disordered, and do they match the regions linked to nucleosome binding in the literature? | Planned |
 
 ## Data
-- [UniProt Dsup (Ramazzottius varieornatus) amino acid sequence as FASTA file](https://www.uniprot.org/uniprotkb/P0DOW4/history) 28.10.2026
+- [UniProt Dsup (Ramazzottius varieornatus) amino acid sequence as FASTA file](https://www.uniprot.org/uniprotkb/P0DOW4/history) Entry verion 19; Release number 2026_03/2026_03; Release date 02-Sep-2026
 - [UniProt Dsup (Ramazzottius varieornatus) AlphaFold prediction file](https://www.uniprot.org/uniprotkb/P0DOW4/feature-viewer) 29.10.2026
 
 See also ./raw_data
