@@ -18,8 +18,9 @@ There are different theories on how Dsup protects the DNA, either directly by bi
 
 ## Data
 - [UniProt Dsup (Ramazzottius varieornatus) amino acid sequence as FASTA file](https://www.uniprot.org/uniprotkb/P0DOW4/history) Entry verion 19; Release number 2026_03/2026_03; Release date 02-Sep-2026
-- [UniProt Dsup (Ramazzottius varieornatus) AlphaFold prediction file](https://www.uniprot.org/uniprotkb/P0DOW4/feature-viewer) 29.10.2026
-
+- [UniProt Dsup (Ramazzottius varieornatus) AlphaFold prediction file](https://www.uniprot.org/uniprotkb/P0DOW4/feature-viewer) Downloaded: 29.10.2026
+- [UniProt human HMGN2 protein sequence FASTA file](https://www.uniprot.org/uniprotkb/P05204/entry#sequences) Last updated: 2007-01-23 v3
+  
 See also ./raw_data
 
 ## Methods
