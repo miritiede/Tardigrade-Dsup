@@ -24,8 +24,11 @@ There are different theories on how Dsup protects the DNA, either directly by bi
 See also ./raw_data
 
 ## Methods
-1. Downloaded the amino acid sequence of *Ramazzottius varieornatus*
-2. Wrote first script to read the FASTA, get the sequence length and the number of each amino acid
+**Charge profile.** First, the amount of each amino acid contained in Dsup was counted and graphed as an overall overview. Each residue was then assigned +1 (K, R), -1 (D,E) or 0 (all other, including histidine, since it is mostly neutral at pH 7). The amount of the charged residues was graphed as well. The summed charge was computed in a sliding window of 50 residues (step size 1) and plotted at the window center. Window sizes 10, 20, 30, 40, 60, 70 and 100 residues were tested as well. However, is the window size smaller than 50 residues there is too much background noise to see a defined curve, is it bigger the curve gets less detailed. 
+
+**Structure confidence.** Per-residues pLDDT values were read from the B-factor column of the AlphaFold mmCIF file (C-alfa atoms) and plotted. This is only an indirect method of assessing the structural disorder since residues with pLDDT below 50 (very low confidence in the AlphaFold DB classification) are considered to be likely disordered. That means, pLDDT is a confidence measure of the prediciton, not a direct measure of disorder. 
+
+**Software.**
 
 ## Results
 *coming soon (hopefully)*
