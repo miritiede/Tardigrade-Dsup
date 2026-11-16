@@ -34,15 +34,15 @@ See also ./raw_data
 **Amino acid composition and charge distribution of Dsup**
 
 **Composition.** The 445-residue Dsup sequence is dominated by a small set of amino acids: serine (79), alanine (72), glycine (69) and lysine (59) together make up about 63% of all residues (Figure 1). In contrast, hydrophobic and aromatic residues are very rare: F (2), L (1), M (3), I (4), Y (1), W (0), and cysteine is completely absent. This composition is characteristic of intrinsically disordered proteins, which are enriched in disorder-promoting residues (A, G, S, K, E, P, Q, R) and depleted in order-promoting, hydrophobic and aromatic residues [3]. Small, polar and charged residues keep the chain flexible and soluble, while the bulky hydrophobic residues that normally form a folded core are missing. This fits the reported lack of a defined domain structure in Dsup [2], although disorder is only inferred from the composition here and was not tested directly.
-![Amino acid composition of Dsup](figures/fig1_dsup_AS_overview.png)
+![Amino acid composition of Dsup](data/figures/fig1_dsup_AS_overview.png)
 *Figure 1: Amino acid composition of Dsup (one-letter code).*
 
 **Charge.** Among the charged residues, the positive ones prevail (Figure 2): lysine (59) and arginine (12) give 71 positive charges, aspartate (29) and glutamate (19) give 48 negative charges. The net charge of the full protein is therefore about +23 at neutral pH, ignoring histidine and any modifications. Lysine is the clearly dominant charged residue.
-![Charged residues of Dsup](figures/fig2_dsup_chargedAS.png)
+![Charged residues of Dsup](data/figures/fig2_dsup_chargedAS.png)
 *Figure 2: Amount of charged residues in Dsup*
 
-**Local charge distribution.** The sliding window analysis (window size 50, Figure 3) shows that the charge is not distributed evenly along the sequence. The N-terminal part (position ~0–100) is roughly neutral to slightly positive. Around position 150–210 the net charge drops to about −5, which marks a more acidic region. After that, the charge rises again, with a local maximum around position 250 (~+8), a dip near position 290 and a steady increase towards the C-terminus, which reaches the highest value of the whole protein (~+14). The C-terminal region is thus strongly positively charged.
-![sliding window analysis](figures/fig3_dsup_window_50_charge.png)
+**Local charge distribution.** The sliding window analysis (window size 50, Figure 3) shows that the charge is not distributed evenly along the sequence. The N-terminal part (position ~0 to 100) is roughly neutral to slightly positive. Around position 150 to 210 the net charge drops to about −5, which marks a more acidic region. After that, the charge rises again, with a local maximum around position 250 (~+8), a dip near position 290 and a steady increase towards the C-terminus, which reaches the highest value of the whole protein (~+14). The C-terminal region is thus strongly positively charged.
+![sliding window analysis](data/figures/fig3_dsup_window_50_charge.png)
 *Figure 3: Sliding window analysis of Dsup local charge distribution*
 
 **Interpretation.** A positively charged, flexible region is well suited to interact with the negatively charged phosphate backbone of DNA. This is consistent with the proposed role of Dsup as a DNA-associated protective protein, where the C-terminal region is thought to be important for binding to chromatin. The charge profile alone does not prove binding or protection, but it supports this hypothesis.
