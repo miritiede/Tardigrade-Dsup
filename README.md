@@ -41,8 +41,8 @@ See also ./raw_data
 ![Charged residues of Dsup](data/figures/fig2_dsup_chargedAS.png)
 *Figure 2: Amount of charged residues in Dsup*
 
-**Local charge distribution.** The sliding window analysis (window size 50, Figure 3) shows that the charge is not distributed evenly along the sequence. The N-terminal part (position ~0 to 100) is roughly neutral to slightly positive. Around position 150 to 210 the net charge drops to about −5, which marks a more acidic region. After that, the charge rises again, with a local maximum around position 250 (~+8), a dip near position 290 and a steady increase towards the C-terminus, which reaches the highest value of the whole protein (~+14). The C-terminal region is thus strongly positively charged.
-![sliding window analysis](data/figures/fig3_dsup_window_50_charge.png)
+**Local charge distribution.** The sliding window analysis (window size 50, Figure 3) shows that the charge is not distributed evenly along the sequence. The N-terminal part (position ~0 to 100) is roughly neutral to slightly positive. Around position 150 to 210 the net charge drops to about -5, which marks a more acidic region. After that, the charge rises again, with a local maximum around position 250 (~+8), a dip near position 290 and a steady increase towards the C-terminus, which reaches the highest value of the whole protein (~+14). The C-terminal region is thus strongly positively charged.
+![sliding window analysis](data/figures/fig03_dsup_window_50_charge.png)
 *Figure 3: Sliding window analysis of Dsup local charge distribution*
 
 **Interpretation.** A positively charged, flexible region is well suited to interact with the negatively charged phosphate backbone of DNA. This is consistent with the proposed role of Dsup as a DNA-associated protective protein, where the C-terminal region is thought to be important for binding to chromatin. The charge profile alone does not prove binding or protection, but it supports this hypothesis.
